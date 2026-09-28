@@ -3,38 +3,83 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TechFlix Solutions</title>
+    <meta name="description" content="Explore TechFix Solutions services including computer repair, network setup, data recovery, and technology support.">
+    <title>TechFix Solutions | Our Services</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-    <h1>TechFlix Solutions</h1>
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="services.html">Services</a>
-        <a href="contacts.html">Contacts</a>
-    </nav>
-    </header>
-    <section class="page-title">
-        <h2>Our Services</h2>
-        <p>professional technology solutions for everyone</p>
-        <div class="services">
-            <div class="service">
-                <h3>Computer Repair</h3>
-                <p>We provide computer repair services for both hardware and software issues.</p>
+    <header class="site-header">
+        <div class="container nav-wrap">
+            <div class="brand" aria-label="TechFix Solutions brand">
+                <span class="brand-mark">TF</span>
+                <h1>TechFix Solutions</h1>
             </div>
-            <div class="service">
-                <h3>Network Setup</h3>
-                <p>We can set up and configure your home or office network for optimal performance.</p>
-            </div>
-            <div class="service">
-                <h3>Data Recovery</h3>
-                <p>If you've lost important data, we can help recover it from damaged or corrupted storage devices.</p>
-            </div>
+            <nav class="main-nav" aria-label="Main navigation">
+                <a href="index.html">Home</a>
+                <a href="services.html" class="active">Services</a>
+                <a href="contacts.html">Contacts</a>
+            </nav>
         </div>
-    </section>
-    <footer>
-        <p>&copy; 2026 TechFlix Solutions. All rights reserved.</p>
+    </header>
+
+    <main>
+        <section class="page-banner section-spacing">
+            <div class="container text-center">
+                <p class="section-tag">What we do</p>
+                <h2>Professional technology solutions for homes and businesses.</h2>
+                <p>From troubleshooting to secure network design, we help our clients stay productive and protected.</p>
+            </div>
+        </section>
+
+        <section class="services section-spacing">
+            <div class="container services-grid">
+                <article class="service-card">
+                    <h3>Computer Repair</h3>
+                    <p>We repair both hardware and software issues, keeping your devices running smoothly and reliably.</p>
+                </article>
+
+                <article class="service-card">
+                    <h3>Network Setup</h3>
+                    <p>We configure secure and efficient home or office networks for better speed, stability, and performance.</p>
+                </article>
+
+                <article class="service-card">
+                    <h3>Data Recovery</h3>
+                    <p>If crucial files are lost, we work to recover data from damaged or corrupted devices with care.</p>
+                </article>
+
+                <article class="service-card">
+                    <h3>System Maintenance</h3>
+                    <p>We perform routine updates, tune-ups, and optimization to improve system performance and reduce downtime.</p>
+                </article>
+
+                <article class="service-card">
+                    <h3>Device Troubleshooting</h3>
+                    <p>Our team quickly diagnoses and resolves technical issues so your business or home can continue running.</p>
+                </article>
+
+                <article class="service-card">
+                    <h3>IT Consultation</h3>
+                    <p>We advise on practical technology choices that support efficiency, security, and long-term growth.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="cta-strip section-spacing">
+            <div class="container cta-strip-inner">
+                <div>
+                    <p class="section-tag">Need help now?</p>
+                    <h3>Let’s talk about your next technical challenge.</h3>
+                </div>
+                <a href="contacts.html" class="button primary">Book a consultation</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-wrap">
+            <p>&copy; 2026 TechFix Solutions. All rights reserved.</p>
+        </div>
     </footer>
 </body>
 </html>

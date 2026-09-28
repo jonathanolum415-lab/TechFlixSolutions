@@ -3,43 +3,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TechFlix Solutions</title>
+    <meta name="description" content="Contact TechFix Solutions for IT support, repairs, network setup, and consultations.">
+    <title>TechFix Solutions | Contact</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>TechFlix Solutions</h1>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="services.html">Services</a>
-            <a href="contacts.html">Contacts</a>
-        </nav>
+    <header class="site-header">
+        <div class="container nav-wrap">
+            <div class="brand" aria-label="TechFix Solutions brand">
+                <span class="brand-mark">TF</span>
+                <h1>TechFix Solutions</h1>
+            </div>
+            <nav class="main-nav" aria-label="Main navigation">
+                <a href="index.html">Home</a>
+                <a href="services.html">Services</a>
+                <a href="contacts.html" class="active">Contacts</a>
+            </nav>
+        </div>
     </header>
-    <section class="page-title">
-        <h2>Contact Us</h2>
-        <p>Get in touch with our team for any inquiries or support.</p>
-    </section>
-    <section class="contact-info">
-        <h3>Contact Information</h3>
-        <p>Email: olumjonathan4@gmail.com</p>
-        <p>Phone: (256) 773357688</p>
-        <p>working hours: 9AM - 5PM, Monday to Friday</p>
-    </section>
-    <div class="contact-form">
-        <form action="submit_form.php" method="post">
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
-            
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-            
-            <label for="message">Message:</label>
-            <textarea id="message" name="message" required></textarea>
-            
-            <button type="submit">Submit</button>
-        </form>
-    <footer>
-        <p>&copy; 2026 TechFlix Solutions. All rights reserved.</p>
+
+    <main>
+        <section class="page-banner section-spacing">
+            <div class="container text-center">
+                <p class="section-tag">Contact us</p>
+                <h2>Need support? We’re ready to help.</h2>
+                <p>Reach out for repairs, consultations, network support, and IT advice.</p>
+            </div>
+        </section>
+
+        <section class="contact-layout section-spacing">
+            <div class="container contact-grid">
+                <div class="contact-info card-panel">
+                    <h3>Contact information</h3>
+                    <ul class="contact-list">
+                        <li><strong>Email:</strong> <a href="mailto:olumjonathan4@gmail.com">olumjonathan4@gmail.com</a></li>
+                        <li><strong>Phone:</strong> <a href="tel:+256773357688">(256) 773357688</a></li>
+                        <li><strong>Hours:</strong> 9:00 AM - 5:00 PM, Monday to Friday</li>
+                        <li><strong>Location:</strong> Uganda</li>
+                    </ul>
+                </div>
+
+                <div class="contact-form-wrapper card-panel">
+                    <h3>Send a message</h3>
+                    <form class="contact-form" action="#" method="post">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="Your full name" required>
+
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="you@example.com" required>
+
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" placeholder="Tell us how we can help you" required></textarea>
+
+                        <button type="submit" class="button primary">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-wrap">
+            <p>&copy; 2026 TechFix Solutions. All rights reserved.</p>
+        </div>
     </footer>
 </body>
 </html>
