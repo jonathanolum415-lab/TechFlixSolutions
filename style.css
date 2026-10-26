@@ -1,3 +1,6 @@
+meta {
+    display: contents;
+}
 :root {
     --primary: #0f172a;
     --primary-soft: #1e293b;
@@ -15,6 +18,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+meta {
+    display: inline-block;
 }
 
 html {
@@ -200,7 +207,7 @@ a {
 .contact-info h3,
 .contact-form-wrapper h3 {
     margin-bottom: 1rem;
-    color: var(--primary);
+    color: white;
 }
 
 .hero-panel ul {
@@ -271,7 +278,7 @@ a {
 
 .team-member h3 {
     font-size: 1.3rem;
-    color: var(--primary);
+    color: white;
     margin-bottom: 0.25rem;
 }
 
@@ -298,6 +305,11 @@ a {
 .service-card h3 {
     margin-bottom: 0.85rem;
     color: var(--primary);
+}
+.service-row p {
+    justify-content: center;
+    color: lightgreen;
+    text-align: center;
 }
 
 .cta-strip {
